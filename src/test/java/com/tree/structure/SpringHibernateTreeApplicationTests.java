@@ -18,8 +18,8 @@ class SpringHibernateTreeApplicationTests {
 	@Test
 	void contextLoads() {
 
-		String[] electronicsCategoryNames = { "Electronics", "Home Audio", "Karaoke" };
-		String[] gamingCategoryNames = { "Gaming", "Console", "Sony" };
+		String[] electronicsCategoryNames = { "Electronics", "Home Audio", "Karaoke", "TV" };
+		String[] gamingCategoryNames = { "Gaming", "Console", "Sony", "LG" };
 
 		Category karaoke = createCategories(electronicsCategoryNames);
 		Category sony = createCategories(gamingCategoryNames);
